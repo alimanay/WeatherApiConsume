@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:Api_Weather_Consume"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="900"
-        Background="#FF81D4FA">
+        Background="#FF81D4FA"
+       WindowStartupLocation="CenterScreen"
+        >
     <Grid>
         <StackPanel>
             <TextBlock  FontSize="20" Width="312" Margin="50">API Consume İşlemine Hoşgeldiniz</TextBlock>
@@ -15,8 +17,8 @@
             <TextBlock  Width="232" Margin="90"  FontSize="14" >Yapmak İstediğiniz İşlemi Seçiniz</TextBlock>
         </StackPanel>
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" >
-            <Button Content="1- Şehir Listesini Getirin" Width="150" Height="40" Margin="5"/>
-            <Button Content="5- ID’ye Göre Şehir Getirme" Width="180" Height="40" Margin="5"/>
+            <Button Cursor="Hand" Content="İşlemler" Width="150" Height="40" Margin="5" Click="Btn_İslemler"/>
+            <Button  Cursor="Hand" Content="Çıkış" Width="180" Height="40" Margin="5"/>
         </StackPanel>
 
 

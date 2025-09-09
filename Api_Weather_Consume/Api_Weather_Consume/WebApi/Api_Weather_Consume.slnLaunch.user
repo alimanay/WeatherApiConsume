@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Yeni Profil",
+    "Projects": [
+      {
+        "Path": "Api_Weather_Consume\\Api_Weather_Consume.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "WebApi\\WebApi.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
