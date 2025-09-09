@@ -10,13 +10,6 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/api_weather_consume.sln")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/api_weather_consume.slnlaunch.user")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/api_weather_consume/bin/debug/api_weather_consume.exe")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/api_weather_consume/bin/debug/api_weather_consume.pdb")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/api_weather_consume/bin/debug/newtonsoft.json.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/api_weather_consume/obj/debug/api_weather_consume.exe")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/api_weather_consume/obj/debug/api_weather_consume.pdb")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/api_weather_consume/obj/debug/temppe/properties.resources.designer.cs." +
-    "dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/packages/newtonsoft.json.13.0.3/lib/net20/newtonsoft.json.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/packages/newtonsoft.json.13.0.3/lib/net35/newtonsoft.json.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/packages/newtonsoft.json.13.0.3/lib/net40/newtonsoft.json.dll")]

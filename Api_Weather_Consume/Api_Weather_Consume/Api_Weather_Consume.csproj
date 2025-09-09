@@ -58,25 +58,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="NewFolder1\Api_Weather_Consume\App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="NewFolder1\Api_Weather_Consume\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="NewFolder1\Api_Weather_Consume\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
-    <Compile Include="NewFolder1\Api_Weather_Consume\obj\Debug\App.g.cs" />
-    <Compile Include="NewFolder1\Api_Weather_Consume\obj\Debug\App.g.i.cs" />
-    <Compile Include="NewFolder1\Api_Weather_Consume\obj\Debug\MainWindow.g.cs" />
-    <Compile Include="NewFolder1\Api_Weather_Consume\obj\Debug\MainWindow.g.i.cs" />
-    <Compile Include="NewFolder1\Api_Weather_Consume\obj\Debug\İslemlerMenu.g.cs" />
-    <Compile Include="NewFolder1\Api_Weather_Consume\obj\Debug\İslemlerMenu.g.i.cs" />
-    <Compile Include="NewFolder1\Api_Weather_Consume\Properties\AssemblyInfo.cs" />
-    <Compile Include="NewFolder1\Api_Weather_Consume\Properties\Resources.Designer.cs" />
-    <Compile Include="NewFolder1\Api_Weather_Consume\Properties\Settings.Designer.cs" />
-    <Compile Include="NewFolder1\Api_Weather_Consume\İslemlerMenu.xaml.cs">
-      <DependentUpon>İslemlerMenu.xaml</DependentUpon>
-    </Compile>
     <Compile Include="İslemlerMenu.xaml.cs">
       <DependentUpon>İslemlerMenu.xaml</DependentUpon>
     </Compile>
@@ -92,18 +73,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="NewFolder1\Api_Weather_Consume\App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="NewFolder1\Api_Weather_Consume\MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="NewFolder1\Api_Weather_Consume\İslemlerMenu.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="İslemlerMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -123,34 +92,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="NewFolder1\Api_Weather_Consume\obj\Debug\Api_Weather_Consume.g.resources" />
-    <EmbeddedResource Include="NewFolder1\Api_Weather_Consume\obj\Debug\Api_Weather_Consume.Properties.Resources.resources" />
-    <EmbeddedResource Include="NewFolder1\Api_Weather_Consume\Properties\Resources.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="NewFolder1\Api_Weather_Consume\Api_Weather_Consume.csproj" />
-    <None Include="NewFolder1\Api_Weather_Consume\App.config" />
-    <None Include="NewFolder1\Api_Weather_Consume\bin\Debug\Api_Weather_Consume.exe.config" />
-    <None Include="NewFolder1\Api_Weather_Consume\obj\Debug\Api_Weat.3263AEAC.Up2Date" />
-    <None Include="NewFolder1\Api_Weather_Consume\obj\Debug\Api_Weather_Consume.csproj.AssemblyReference.cache" />
-    <None Include="NewFolder1\Api_Weather_Consume\obj\Debug\Api_Weather_Consume.csproj.CoreCompileInputs.cache" />
-    <None Include="NewFolder1\Api_Weather_Consume\obj\Debug\Api_Weather_Consume.csproj.GenerateResource.cache" />
-    <None Include="NewFolder1\Api_Weather_Consume\obj\Debug\Api_Weather_Consume.exe.config" />
-    <None Include="NewFolder1\Api_Weather_Consume\obj\Debug\Api_Weather_Consume_MarkupCompile.cache" />
-    <None Include="NewFolder1\Api_Weather_Consume\obj\Debug\Api_Weather_Consume_MarkupCompile.i.cache" />
-    <None Include="NewFolder1\Api_Weather_Consume\obj\Debug\Api_Weather_Consume_MarkupCompile.lref" />
-    <None Include="NewFolder1\Api_Weather_Consume\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
-    <None Include="NewFolder1\Api_Weather_Consume\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="NewFolder1\Api_Weather_Consume\obj\Debug\MainWindow.baml" />
-    <None Include="NewFolder1\Api_Weather_Consume\obj\Debug\İslemlerMenu.baml" />
-    <None Include="NewFolder1\Api_Weather_Consume\packages.config" />
-    <None Include="NewFolder1\Api_Weather_Consume\Properties\Settings.settings" />
-    <None Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\.signature.p7s" />
-    <None Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\LICENSE.md" />
-    <None Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\Newtonsoft.Json.13.0.3.nupkg" />
-    <None Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\README.md" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -160,38 +105,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="NewFolder1\Api_Weather_Consume.sln" />
-    <Content Include="NewFolder1\Api_Weather_Consume.slnLaunch.user" />
-    <Content Include="NewFolder1\Api_Weather_Consume\bin\Debug\Api_Weather_Consume.exe" />
-    <Content Include="NewFolder1\Api_Weather_Consume\bin\Debug\Api_Weather_Consume.pdb" />
-    <Content Include="NewFolder1\Api_Weather_Consume\bin\Debug\Newtonsoft.Json.dll" />
-    <Resource Include="NewFolder1\Api_Weather_Consume\bin\Debug\Newtonsoft.Json.xml" />
-    <Resource Include="NewFolder1\Api_Weather_Consume\obj\Debug\Api_Weather_Consume.csproj.FileListAbsolute.txt" />
-    <Content Include="NewFolder1\Api_Weather_Consume\obj\Debug\Api_Weather_Consume.exe" />
-    <Content Include="NewFolder1\Api_Weather_Consume\obj\Debug\Api_Weather_Consume.pdb" />
-    <Content Include="NewFolder1\Api_Weather_Consume\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
-    <Content Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\net20\Newtonsoft.Json.dll" />
-    <Resource Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\net20\Newtonsoft.Json.xml" />
-    <Content Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\net35\Newtonsoft.Json.dll" />
-    <Resource Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\net35\Newtonsoft.Json.xml" />
-    <Content Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\net40\Newtonsoft.Json.dll" />
-    <Resource Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\net40\Newtonsoft.Json.xml" />
-    <Content Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll" />
-    <Resource Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.xml" />
-    <Content Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\net6.0\Newtonsoft.Json.dll" />
-    <Resource Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\net6.0\Newtonsoft.Json.xml" />
-    <Content Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\netstandard1.0\Newtonsoft.Json.dll" />
-    <Resource Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\netstandard1.0\Newtonsoft.Json.xml" />
-    <Content Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\netstandard1.3\Newtonsoft.Json.dll" />
-    <Resource Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\netstandard1.3\Newtonsoft.Json.xml" />
-    <Content Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll" />
-    <Resource Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\lib\netstandard2.0\Newtonsoft.Json.xml" />
-    <Resource Include="NewFolder1\packages\Newtonsoft.Json.13.0.3\packageIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder1\Api_Weather_Consume\bin\Release\" />
-    <Folder Include="NewFolder1\Api_Weather_Consume\NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

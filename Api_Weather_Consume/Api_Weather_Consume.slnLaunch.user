@@ -7,7 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "..\\..\\projeler_yeni\\ApiProject_Weather\\ApiProject_Weather\\",
+        "Path": "WebApi\\WebApi.csproj",
         "Action": "Start"
       }
     ]
