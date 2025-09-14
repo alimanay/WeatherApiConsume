@@ -5,34 +5,66 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Api_Weather_Consume"
         mc:Ignorable="d"
-        Title="İslemlerMenu" Height="450" Width="800"
+        Title="İslemlerMenu" Height="498" Width="800"
         WindowStartupLocation="CenterScreen"
-        Background="#FF81D4FA">
-
-    <Grid>
-        <StackPanel Margin="2,28,305,2">
+        Background="#FF81D4FA"
+   ResizeMode="NoResize"
+       >
+    <Window.Resources>
+        <Style TargetType="TextBox">
+           
+            
+        </Style>
+    </Window.Resources>
+    <Grid Margin="2,5,-2,-4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="401*"/>
+            <ColumnDefinition Width="67*"/>
+            <ColumnDefinition Width="332*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="2,108,3,16" Grid.ColumnSpan="2">
             <DataGrid x:Name="DataGridList"
-              Height="401"
-              Width="462"
+              Height="313"
+              Width="430"
               Background="Beige"
               AutoGenerateColumns="True"
               IsReadOnly="True"/>
         </StackPanel>
-        <StackPanel Margin="524,104,30,55">
+        <StackPanel Margin="71,118,26,99" Grid.Column="2">
             <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20">Ara</Button>
-            <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20" Click="Button_ClickAsync" >Şehir Listesini Getir</Button>
-            <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20">Ekle</Button>
+            <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20" Click="ButtonList_ClickAsync" >Şehir Listesini Getir</Button>
+            <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20" Click="ButtonAdd_Click">Ekle</Button>
             <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20">Sil</Button>
-            <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20" Content="Güncelle"/>
+            <Button Width="180" FontSize="20" Height="34" Margin="2,2,2,20" Content="Güncelle"/>
 
         </StackPanel>
-        <!--<StackPanel>
-            <TextBox Width="200"></TextBox>
-            <TextBox Width="200"></TextBox>
-            <TextBox Width="200"></TextBox>
-            <TextBox Width="200"></TextBox>
-        </StackPanel>-->
-    
+        <Grid Grid.ColumnSpan="3" Margin="20,10,167,0" VerticalAlignment="Top" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- TextBlock satırı -->
+                <RowDefinition Height="Auto"/>
+                <!-- TextBox satırı -->
+            </Grid.RowDefinitions>
+
+            <!-- Başlıklar -->
+            <TextBlock Grid.Column="0" Grid.Row="0" FontSize="20" Text="Şehir İsmi" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Column="1" Grid.Row="0" FontSize="20" Text="Ülke" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Column="2" Grid.Row="0" FontSize="20" Text="Derece" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Column="3" Grid.Row="0" FontSize="20" Text="Detay" HorizontalAlignment="Center"/>
+
+            <!-- TextBoxlar -->
+            <TextBox Grid.Column="0" Grid.Row="1" Margin="2" Height="30" Width="140" Name="txt_CityName"/>
+            <TextBox Grid.Column="1" Grid.Row="1" Margin="2" Height="30" Width="140" Name="txt_Country"/>
+            <TextBox Grid.Column="2" Grid.Row="1" Margin="2" Height="30" Width="140" Name="txt_Temprature"/>
+            <TextBox Grid.Column="3" Grid.Row="1" Margin="2" Height="30" Width="140" Name="txt_Detail"/>
+        </Grid>
+
 
     </Grid>
 </Window>

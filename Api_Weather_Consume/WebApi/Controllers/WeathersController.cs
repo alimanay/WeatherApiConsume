@@ -36,11 +36,13 @@ namespace ApiProject_Weather.Controllers
 
             if (value == null)
                 return NotFound($"{id} ID'li şehir bulunamadı.");
+            else
+            {
+                context.Cities.Remove(value);
+                context.SaveChanges();
 
-            context.Cities.Remove(value);
-            context.SaveChanges();
-
-            return Ok($"{id} ID'li şehir başarıyla silindi.");
+                return Ok($"{id} ID'li şehir başarıyla silindi.");
+            }
         }
 
         [HttpPut]
