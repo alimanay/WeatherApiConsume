@@ -166,3 +166,7 @@ C:\Users\alima\Desktop\WeatherApiConsume\Api_Weather_Consume\WebApi\obj\Debug\ne
 C:\Users\alima\Desktop\WeatherApiConsume\Api_Weather_Consume\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\alima\Desktop\WeatherApiConsume\Api_Weather_Consume\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\alima\Desktop\WeatherApiConsume\Api_Weather_Consume\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\alima\Desktop\WeatherApiConsume\Api_Weather_Consume\WebApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\alima\Desktop\WeatherApiConsume\Api_Weather_Consume\WebApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\alima\Desktop\WeatherApiConsume\Api_Weather_Consume\WebApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\alima\Desktop\WeatherApiConsume\Api_Weather_Consume\WebApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

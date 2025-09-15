@@ -12,8 +12,8 @@
        >
     <Window.Resources>
         <Style TargetType="TextBox">
-           
-            
+
+
         </Style>
     </Window.Resources>
     <Grid Margin="2,5,-2,-4">
@@ -28,17 +28,17 @@
               Width="430"
               Background="Beige"
               AutoGenerateColumns="True"
-              IsReadOnly="True"/>
+              IsReadOnly="True"
+                     SelectionChanged="DataGridList_SelectionChanged"/>
         </StackPanel>
         <StackPanel Margin="71,118,26,99" Grid.Column="2">
-            <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20">Ara</Button>
             <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20" Click="ButtonList_ClickAsync" >Şehir Listesini Getir</Button>
             <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20" Click="ButtonAdd_Click">Ekle</Button>
-            <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20">Sil</Button>
-            <Button Width="180" FontSize="20" Height="34" Margin="2,2,2,20" Content="Güncelle"/>
+            <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20" Click="ButtonDelete_Click">Sil</Button>
+            <Button Width="180" FontSize="20" Height="34" Margin="2,2,2,20" Content="Güncelle" Click="ButtonUpdate_Click"/>
 
         </StackPanel>
-        <Grid Grid.ColumnSpan="3" Margin="20,10,167,0" VerticalAlignment="Top" >
+        <Grid Grid.ColumnSpan="3" Margin="20,10,66,0" VerticalAlignment="Top" >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="150"/>
                 <ColumnDefinition Width="150"/>
@@ -57,6 +57,7 @@
             <TextBlock Grid.Column="1" Grid.Row="0" FontSize="20" Text="Ülke" HorizontalAlignment="Center"/>
             <TextBlock Grid.Column="2" Grid.Row="0" FontSize="20" Text="Derece" HorizontalAlignment="Center"/>
             <TextBlock Grid.Column="3" Grid.Row="0" FontSize="20" Text="Detay" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="1" FontSize="20"  Name="txt_Id" Visibility="Hidden"  HorizontalAlignment="Left" Margin="30,39,0,-31" Width="36"/>
 
             <!-- TextBoxlar -->
             <TextBox Grid.Column="0" Grid.Row="1" Margin="2" Height="30" Width="140" Name="txt_CityName"/>

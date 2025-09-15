@@ -31,5 +31,11 @@ namespace Api_Weather_Consume
             islemlerMenu.Show();
             this.Close();
         }
+
+        private void ButtonExit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+
+        }
     }
 }
