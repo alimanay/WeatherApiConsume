@@ -5,16 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Api_Weather_Consume"
         mc:Ignorable="d"
-        Title="İslemlerMenu" Height="498" Width="800"
+        Title="İslemler Menu" Height="498" Width="800"
         WindowStartupLocation="CenterScreen"
         Background="#FF81D4FA"
    ResizeMode="NoResize"
+       
+        
        >
     <Window.Resources>
         <Style TargetType="TextBox">
-
-
+            <Setter Property="Padding" Value="0,5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}" 
+             >
+                        <Border Background="{TemplateBinding Background}" 
+                 BorderBrush="{TemplateBinding BorderBrush}" 
+                 BorderThickness="{TemplateBinding BorderThickness}" 
+                 CornerRadius="6"
+                 SnapsToDevicePixels="True">
+                            <ScrollViewer x:Name="PART_ContentHost" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
         </Style>
+        <Style TargetType="Button">
+            <Setter Property="Cursor" Value="Hand"  />
+        </Style>
+
     </Window.Resources>
     <Grid Margin="2,5,-2,-4">
         <Grid.ColumnDefinitions>
@@ -23,19 +42,19 @@
             <ColumnDefinition Width="332*"/>
         </Grid.ColumnDefinitions>
         <StackPanel Margin="2,108,3,16" Grid.ColumnSpan="2">
-            <DataGrid x:Name="DataGridList"
-              Height="313"
-              Width="430"
-              Background="Beige"
-              AutoGenerateColumns="True"
-              IsReadOnly="True"
-                     SelectionChanged="DataGridList_SelectionChanged"/>
+            <DataGrid x:Name="DataGridList" Height="313" Width="430"
+                      Background="Beige" AutoGenerateColumns="True"
+                      IsReadOnly="True"
+                      SelectionChanged="DataGridList_SelectionChanged"/>
+            
+
         </StackPanel>
-        <StackPanel Margin="71,118,26,99" Grid.Column="2">
+        <StackPanel Margin="71,118,26,79" Grid.Column="2">
             <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20" Click="ButtonList_ClickAsync" >Şehir Listesini Getir</Button>
             <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20" Click="ButtonAdd_Click">Ekle</Button>
             <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20" Click="ButtonDelete_Click">Sil</Button>
             <Button Width="180" FontSize="20" Height="34" Margin="2,2,2,20" Content="Güncelle" Click="ButtonUpdate_Click"/>
+            <Button Width="180" FontSize="20" Height="34" Margin="2,2,2,20" Content="Ana Menü" Click="ButtonMenu_Click"/>
 
         </StackPanel>
         <Grid Grid.ColumnSpan="3" Margin="20,10,66,0" VerticalAlignment="Top" >
@@ -60,7 +79,7 @@
             <TextBlock Grid.Row="1" FontSize="20"  Name="txt_Id" Visibility="Hidden"  HorizontalAlignment="Left" Margin="30,39,0,-31" Width="36"/>
 
             <!-- TextBoxlar -->
-            <TextBox Grid.Column="0" Grid.Row="1" Margin="2" Height="30" Width="140" Name="txt_CityName"/>
+            <TextBox Grid.Column="0"  Grid.Row="1" Margin="2" Height="30" Width="140" Name="txt_CityName"/>
             <TextBox Grid.Column="1" Grid.Row="1" Margin="2" Height="30" Width="140" Name="txt_Country"/>
             <TextBox Grid.Column="2" Grid.Row="1" Margin="2" Height="30" Width="140" Name="txt_Temprature"/>
             <TextBox Grid.Column="3" Grid.Row="1" Margin="2" Height="30" Width="140" Name="txt_Detail"/>

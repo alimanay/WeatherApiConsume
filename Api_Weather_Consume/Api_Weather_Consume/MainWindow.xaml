@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Api_Weather_Consume"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="900"
+        Title="Ana Menü" Height="450" Width="900"
         Background="#FF81D4FA"
        WindowStartupLocation="CenterScreen"
         >

@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\",
+  "WorkspaceRootPath": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F7BF34E-CACB-43B5-B012-B07C76860B33}|WebApi\\WebApi.csproj|c:\\users\\alima\\desktop\\githubprojeler\\weatherapiconsume\\api_weather_consume\\webapi\\controllers\\weatherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F7BF34E-CACB-43B5-B012-B07C76860B33}|WebApi\\WebApi.csproj|c:\\users\\alima\\desktop\\weatherapiconsume\\api_weather_consume\\webapi\\controllers\\weatherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F7BF34E-CACB-43B5-B012-B07C76860B33}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\weatherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F92EE552-4966-49EC-8B43-AD08AA9F805D}|Api_Weather_Consume\\Api_Weather_Consume.csproj|C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\api_weather_consume\\\u0130slemlermenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F92EE552-4966-49EC-8B43-AD08AA9F805D}|Api_Weather_Consume\\Api_Weather_Consume.csproj|C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\api_weather_consume\\\u0130slemlermenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F92EE552-4966-49EC-8B43-AD08AA9F805D}|Api_Weather_Consume\\Api_Weather_Consume.csproj|solutionrelative:api_weather_consume\\\u0130slemlermenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F92EE552-4966-49EC-8B43-AD08AA9F805D}|Api_Weather_Consume\\Api_Weather_Consume.csproj|C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\api_weather_consume\\\u0130slemlermenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F92EE552-4966-49EC-8B43-AD08AA9F805D}|Api_Weather_Consume\\Api_Weather_Consume.csproj|c:\\users\\alima\\desktop\\weatherapiconsume\\api_weather_consume\\api_weather_consume\\\u0130slemlermenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F92EE552-4966-49EC-8B43-AD08AA9F805D}|Api_Weather_Consume\\Api_Weather_Consume.csproj|solutionrelative:api_weather_consume\\\u0130slemlermenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F92EE552-4966-49EC-8B43-AD08AA9F805D}|Api_Weather_Consume\\Api_Weather_Consume.csproj|C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\api_weather_consume\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F92EE552-4966-49EC-8B43-AD08AA9F805D}|Api_Weather_Consume\\Api_Weather_Consume.csproj|C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\api_weather_consume\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F92EE552-4966-49EC-8B43-AD08AA9F805D}|Api_Weather_Consume\\Api_Weather_Consume.csproj|solutionrelative:api_weather_consume\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F92EE552-4966-49EC-8B43-AD08AA9F805D}|Api_Weather_Consume\\Api_Weather_Consume.csproj|C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\api_weather_consume\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F92EE552-4966-49EC-8B43-AD08AA9F805D}|Api_Weather_Consume\\Api_Weather_Consume.csproj|C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\api_weather_consume\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F92EE552-4966-49EC-8B43-AD08AA9F805D}|Api_Weather_Consume\\Api_Weather_Consume.csproj|solutionrelative:api_weather_consume\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F7BF34E-CACB-43B5-B012-B07C76860B33}|WebApi\\WebApi.csproj|c:\\users\\alima\\desktop\\githubprojeler\\weatherapiconsume\\api_weather_consume\\webapi\\entitys\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F7BF34E-CACB-43B5-B012-B07C76860B33}|WebApi\\WebApi.csproj|c:\\users\\alima\\desktop\\weatherapiconsume\\api_weather_consume\\webapi\\entitys\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F7BF34E-CACB-43B5-B012-B07C76860B33}|WebApi\\WebApi.csproj|solutionrelative:webapi\\entitys\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -40,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "WeathersController.cs",
-              "DocumentMoniker": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\Controllers\\WeathersController.cs",
+              "DocumentMoniker": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\Controllers\\WeathersController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\WeathersController.cs",
-              "ToolTip": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\Controllers\\WeathersController.cs",
+              "ToolTip": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\Controllers\\WeathersController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\WeathersController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwEwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T12:09:02.874Z",
               "EditorCaption": ""
@@ -53,9 +53,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "City.cs",
-              "DocumentMoniker": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\Entitys\\City.cs",
+              "DocumentMoniker": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\Entitys\\City.cs",
               "RelativeDocumentMoniker": "WebApi\\Entitys\\City.cs",
-              "ToolTip": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\Entitys\\City.cs",
+              "ToolTip": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\Entitys\\City.cs",
               "RelativeToolTip": "WebApi\\Entitys\\City.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -65,47 +65,51 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "\u0130slemlerMenu.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\\u0130slemlerMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\\u0130slemlerMenu.xaml.cs",
               "RelativeDocumentMoniker": "Api_Weather_Consume\\\u0130slemlerMenu.xaml.cs",
-              "ToolTip": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\\u0130slemlerMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\\u0130slemlerMenu.xaml.cs",
               "RelativeToolTip": "Api_Weather_Consume\\\u0130slemlerMenu.xaml.cs",
               "ViewState": "AgIAAKkAAAAAAAAAAAAmwL4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T11:26:47.129Z"
+              "WhenOpened": "2025-09-09T11:26:47.129Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "\u0130slemlerMenu.xaml",
-              "DocumentMoniker": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\\u0130slemlerMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\\u0130slemlerMenu.xaml",
               "RelativeDocumentMoniker": "Api_Weather_Consume\\\u0130slemlerMenu.xaml",
-              "ToolTip": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\\u0130slemlerMenu.xaml",
+              "ToolTip": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\\u0130slemlerMenu.xaml",
               "RelativeToolTip": "Api_Weather_Consume\\\u0130slemlerMenu.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-08T21:31:06.194Z"
+              "WhenOpened": "2025-09-08T21:31:06.194Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Api_Weather_Consume\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\MainWindow.xaml.cs",
               "RelativeToolTip": "Api_Weather_Consume\\MainWindow.xaml.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAwBQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T16:07:20.265Z"
+              "WhenOpened": "2025-09-08T16:07:20.265Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Api_Weather_Consume\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\Api_Weather_Consume\\MainWindow.xaml",
               "RelativeToolTip": "Api_Weather_Consume\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-08T16:07:21.06Z"
+              "WhenOpened": "2025-09-08T16:07:21.06Z",
+              "EditorCaption": ""
             }
           ]
         }

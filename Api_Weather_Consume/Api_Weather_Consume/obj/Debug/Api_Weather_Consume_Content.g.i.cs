@@ -8,18 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/api_weather_consume.sln")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/api_weather_consume.slnlaunch.user")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/packages/newtonsoft.json.13.0.3/lib/net20/newtonsoft.json.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/packages/newtonsoft.json.13.0.3/lib/net35/newtonsoft.json.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/packages/newtonsoft.json.13.0.3/lib/net40/newtonsoft.json.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/packages/newtonsoft.json.13.0.3/lib/net45/newtonsoft.json.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/packages/newtonsoft.json.13.0.3/lib/net6.0/newtonsoft.json.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/packages/newtonsoft.json.13.0.3/lib/netstandard1.0/newtonsoft.json.dll" +
-    "")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/packages/newtonsoft.json.13.0.3/lib/netstandard1.3/newtonsoft.json.dll" +
-    "")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfolder1/packages/newtonsoft.json.13.0.3/lib/netstandard2.0/newtonsoft.json.dll" +
-    "")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("weather-app.ico")]
 
 

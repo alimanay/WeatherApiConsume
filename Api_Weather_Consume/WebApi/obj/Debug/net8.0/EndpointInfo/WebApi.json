@@ -106,30 +106,6 @@
           }
         }
       }
-    },
-    "/api/Weathers/TotalGetCityCount": {
-      "get": {
-        "tags": [
-          "Weathers"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Weathers/MaxTempCityName": {
-      "get": {
-        "tags": [
-          "Weathers"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
     }
   },
   "components": {

@@ -34,7 +34,7 @@ namespace Api_Weather_Consume
 
         private void ButtonExit_Click(object sender, RoutedEventArgs e)
         {
-            Application.Current.Shutdown();
+            this.Close();
 
         }
     }

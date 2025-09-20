@@ -28,7 +28,7 @@ namespace Api_Weather_Consume
         {
             InitializeComponent();
         }
-        public async void UpdateList()
+        private async void UpdateList()
         {
             string url = "https://localhost:7040/api/Weathers";
             using (HttpClient client = new HttpClient())
@@ -48,7 +48,7 @@ namespace Api_Weather_Consume
             {
                 HttpResponseMessage httpResponse = await client.GetAsync(url);
                 string responseBody = await httpResponse.Content.ReadAsStringAsync();
-                JArray jArray = JArray.Parse(responseBody);
+                JArray jArray = JArray.Parse(responseBody); 
                 DataGridList.ItemsSource = jArray;
             }
 
@@ -56,42 +56,54 @@ namespace Api_Weather_Consume
 
         private async void ButtonAdd_Click(object sender, RoutedEventArgs e)
         {
-            string url = "https://localhost:7040/api/Weathers";
+            // Gerekli alanların kontrolü
+            if (string.IsNullOrWhiteSpace(txt_CityName.Text) ||
+                string.IsNullOrWhiteSpace(txt_Country.Text) ||
+                string.IsNullOrWhiteSpace(txt_Temprature.Text) ||
+                string.IsNullOrWhiteSpace(txt_Detail.Text))
+            {
+                MessageBox.Show("Lütfen tüm alanları doldurun.");
+                return;
+            }
 
-            var neweatherCity = new
+            string url = "https://localhost:7040/api/Weathers";
+            var newWeatherCity = new
             {
                 cityName = txt_CityName.Text,
                 country = txt_Country.Text,
                 temprature = txt_Temprature.Text,
                 detail = txt_Detail.Text,
             };
-            using (HttpClient client = new HttpClient())
+
+            try
             {
-                try
+                using (HttpClient client = new HttpClient())
                 {
-                    string json = JsonConvert.SerializeObject(neweatherCity);
+                    string json = JsonConvert.SerializeObject(newWeatherCity);
                     StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
                     HttpResponseMessage response = await client.PostAsync(url, content);
-                    HttpResponseMessage httpResponseMessage = await client.GetAsync(url);
-                    string responsebody = await httpResponseMessage.Content.ReadAsStringAsync();
-                    JArray jArray = JArray.Parse(responsebody);
-                    
 
                     if (response.IsSuccessStatusCode)
                     {
-                        DataGridList.ItemsSource = jArray;
+                        UpdateList(); // Listeyi güncelle
                         MessageBox.Show("Yeni şehir eklendi!");
+                        // Alanları temizle
+                        txt_CityName.Text = "";
+                        txt_Country.Text = "";
+                        txt_Temprature.Text = "";
+                        txt_Detail.Text = "";
                     }
                     else
                     {
-
-                        MessageBox.Show($"Hata:Veriler boş bırakılamaz");
+                        string errorMsg = await response.Content.ReadAsStringAsync();
+                        MessageBox.Show($"Hata: {errorMsg}");
                     }
                 }
-                catch { }
-
             }
-
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Bir hata oluştu: {ex.Message}");
+            }
         }
 
         private async void ButtonDelete_Click(object sender, RoutedEventArgs e)
@@ -171,7 +183,12 @@ namespace Api_Weather_Consume
             }
         }
 
-
+        private void ButtonMenu_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Hide();
+        }
     }
 }
     

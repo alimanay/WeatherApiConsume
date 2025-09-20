@@ -5165,11 +5165,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\alima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alima\\Desktop\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\alima\\Desktop\\GitHubProjeler\\WeatherApiConsume\\Api_Weather_Consume\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

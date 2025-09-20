@@ -68,20 +68,7 @@ namespace ApiProject_Weather.Controllers
 
         }
 
-        [HttpGet("TotalGetCityCount")]
-        public IActionResult TotalGetCityCount()
-        {
-            var value = context.Cities.Count();
-            return Ok(value);
-        }
-        [HttpGet("MaxTempCityName")]
-
-        public IActionResult MaxTempCityName()
-        {
-            var value = context.Cities.OrderByDescending(a => a.Temprature).Select(a => a.CityName).FirstOrDefault();
-            return Ok(value);
-
-        }
+        
 
 
 

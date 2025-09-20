@@ -66,25 +66,5 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApiProject_Weather.Controllers.WeathersController",
-    "Method": "MaxTempCityName",
-    "RelativePath": "api/Weathers/MaxTempCityName",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApiProject_Weather.Controllers.WeathersController",
-    "Method": "TotalGetCityCount",
-    "RelativePath": "api/Weathers/TotalGetCityCount",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
   }
 ]
