@@ -117,5 +117,12 @@
   <ItemGroup>
     <Resource Include="weather-app.ico" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Icons\cityscape_17359653.ico" />
+    <Resource Include="Icons\country_12129843.ico" />
+    <Resource Include="Icons\database_2596173.ico" />
+    <Resource Include="Icons\thermometer_6420948.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

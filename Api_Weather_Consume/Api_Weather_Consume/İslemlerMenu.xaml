@@ -5,12 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Api_Weather_Consume"
         mc:Ignorable="d"
-        Title="İslemler Menu" Height="498" Width="800"
+        Title="İşlemler Menü" Height="498" Width="800"
         WindowStartupLocation="CenterScreen"
         Background="#FF81D4FA"
-   ResizeMode="NoResize"
-       
-        
+   ResizeMode="NoResize"   
        >
     <Window.Resources>
         <Style TargetType="TextBox">
@@ -43,11 +41,10 @@
         </Grid.ColumnDefinitions>
         <StackPanel Margin="2,108,3,16" Grid.ColumnSpan="2">
             <DataGrid x:Name="DataGridList" Height="313" Width="430"
-                      Background="Beige" AutoGenerateColumns="True"
+                       AutoGenerateColumns="True"
                       IsReadOnly="True"
-                      SelectionChanged="DataGridList_SelectionChanged"/>
-            
-
+                      SelectionChanged="DataGridList_SelectionChanged"
+                      Background="White"/>
         </StackPanel>
         <StackPanel Margin="71,118,26,79" Grid.Column="2">
             <Button Width="180" FontSize="20" Height="30" Margin="2,2,2,20" Click="ButtonList_ClickAsync" >Şehir Listesini Getir</Button>
@@ -57,6 +54,7 @@
             <Button Width="180" FontSize="20" Height="34" Margin="2,2,2,20" Content="Ana Menü" Click="ButtonMenu_Click"/>
 
         </StackPanel>
+
         <Grid Grid.ColumnSpan="3" Margin="20,10,66,0" VerticalAlignment="Top" >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="150"/>
@@ -71,10 +69,23 @@
                 <!-- TextBox satırı -->
             </Grid.RowDefinitions>
 
+            <!--Iconlar-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Source="/Icons/cityscape_17359653.ico" Height="24" Grid.Column="0" Margin="12,4,105,4" Grid.ColumnSpan="2"/>
+                <Image Source="/Icons/country_12129843.ico" Height="24" Grid.Column="0" Margin="167,4,-50,4" Grid.ColumnSpan="2" RenderTransformOrigin="0.182,0.418"/>
+                <Image Source="/Icons/database_2596173.ico" Height="24" Grid.Column="0" Margin="464,4,-347,4" Grid.ColumnSpan="2"/>
+                <Image Source="/Icons/thermometer_6420948.ico" Height="24" Grid.Column="0" Margin="314,0,-197,4" Grid.ColumnSpan="2" RenderTransformOrigin="2.121,0.552" VerticalAlignment="Bottom"/>
+
+            </Grid>
             <!-- Başlıklar -->
-            <TextBlock Grid.Column="0" Grid.Row="0" FontSize="20" Text="Şehir İsmi" HorizontalAlignment="Center"/>
-            <TextBlock Grid.Column="1" Grid.Row="0" FontSize="20" Text="Ülke" HorizontalAlignment="Center"/>
-            <TextBlock Grid.Column="2" Grid.Row="0" FontSize="20" Text="Derece" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="0" FontSize="20" Text="Şehir " HorizontalAlignment="Center" Margin="0,1,0,34" Grid.RowSpan="2"/>
+            <TextBlock Grid.Column="1" Grid.Row="0" FontSize="20" Text="Ülke" HorizontalAlignment="Left" RenderTransformOrigin="0.474,0.782" Margin="53,2,0,33" Grid.RowSpan="2"/>
+            <TextBlock Grid.Column="2" Grid.Row="0" FontSize="20" Text="Derece" HorizontalAlignment="Center" Margin="0,3,0,32" Grid.RowSpan="2"/>
             <TextBlock Grid.Column="3" Grid.Row="0" FontSize="20" Text="Detay" HorizontalAlignment="Center"/>
             <TextBlock Grid.Row="1" FontSize="20"  Name="txt_Id" Visibility="Hidden"  HorizontalAlignment="Left" Margin="30,39,0,-31" Width="36"/>
 

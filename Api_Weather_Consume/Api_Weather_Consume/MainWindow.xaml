@@ -11,7 +11,7 @@
         >
     <Grid>
         <StackPanel>
-            <TextBlock  FontSize="20" Width="312" Margin="50">API Consume İşlemine Hoşgeldiniz</TextBlock>
+            <TextBlock  FontSize="20" Width="398" Margin="50">API Weather Consume İşlemine Hoşgeldiniz</TextBlock>
         </StackPanel>
         <StackPanel>
             <TextBlock  Width="232" Margin="90"  FontSize="14" >Yapmak İstediğiniz İşlemi Seçiniz</TextBlock>

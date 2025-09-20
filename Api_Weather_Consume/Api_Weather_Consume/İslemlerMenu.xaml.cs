@@ -57,10 +57,7 @@ namespace Api_Weather_Consume
         private async void ButtonAdd_Click(object sender, RoutedEventArgs e)
         {
             // Gerekli alanların kontrolü
-            if (string.IsNullOrWhiteSpace(txt_CityName.Text) ||
-                string.IsNullOrWhiteSpace(txt_Country.Text) ||
-                string.IsNullOrWhiteSpace(txt_Temprature.Text) ||
-                string.IsNullOrWhiteSpace(txt_Detail.Text))
+            if (string.IsNullOrWhiteSpace(txt_CityName.Text) || string.IsNullOrWhiteSpace(txt_Country.Text) ||string.IsNullOrWhiteSpace(txt_Temprature.Text) || string.IsNullOrWhiteSpace(txt_Detail.Text))
             {
                 MessageBox.Show("Lütfen tüm alanları doldurun.");
                 return;
@@ -95,8 +92,8 @@ namespace Api_Weather_Consume
                     }
                     else
                     {
-                        string errorMsg = await response.Content.ReadAsStringAsync();
-                        MessageBox.Show($"Hata: {errorMsg}");
+                        
+                        MessageBox.Show($"Hata:Alanları doğru biçimde yazınız");
                     }
                 }
             }
@@ -140,7 +137,6 @@ namespace Api_Weather_Consume
             {
             }
         }
-
         private void DataGridList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (DataGridList.SelectedItem is JObject row)
@@ -152,7 +148,6 @@ namespace Api_Weather_Consume
                 txt_Id.Text = row["cityId"]?.ToString();
             }
         }
-
         private async void ButtonUpdate_Click(object sender, RoutedEventArgs e)
         {
             string url = "https://localhost:7040/api/Weathers";
@@ -182,7 +177,6 @@ namespace Api_Weather_Consume
                 }
             }
         }
-
         private void ButtonMenu_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = new MainWindow();
